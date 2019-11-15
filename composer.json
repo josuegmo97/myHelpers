@@ -1,0 +1,23 @@
+{
+    "name": "josuegmo/helpers",
+    "description": "Helpers, Traits y Funciones comunes.",
+    "type": "library",
+    "authors": [{
+        "name": "shinoblackss",
+        "email": "ejmagbriel97@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Josuegmo\\Helpers\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Josuegmo\\Helpers\\JmHelpersServiceProvider"
+            ]
+        }
+    }
+}
